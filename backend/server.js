@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+const Etudiant = require("./models/Etudiant");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
